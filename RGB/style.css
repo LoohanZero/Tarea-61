@@ -1,0 +1,27 @@
+body{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.range{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.range div{
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.range .info {
+    width: 100%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+}
