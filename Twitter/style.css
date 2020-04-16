@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.sendbox {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red-letter {
+    color: #c02739;
+}
