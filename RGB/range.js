@@ -2,7 +2,7 @@ const range = document.getElementsByClassName("range-value")
 const p = document.getElementsByClassName("actual-value")
 const finalColor = document.getElementById("final-color")
 let bodyBody = document.body; 
-console.log(bodyBody)
+
 
 
 const addValue = (index)=>{
@@ -16,7 +16,7 @@ const createFinalValue = () => {
 
 const changeBodyColor = () => {
     bodyBody.style.backgroundColor = finalColor.innerHTML;
-    console.log(bodyBody.style.backgroundColor)
+
 }
 
 range[0].addEventListener("change", function(){addValue(0)})

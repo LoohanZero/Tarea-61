@@ -27,3 +27,4 @@ byHundred.addEventListener('click', () => number = 100);
 plus.addEventListener('click', counterPlus);
 minus.addEventListener('click', counterMinus);
 
+
